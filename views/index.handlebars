@@ -1,0 +1,40 @@
+    
+    <header class="container-fluid">
+      <div class="row">
+        <div id="header1" class="col-12">
+          <i id="burger" class="fas fa-hamburger"></i>
+        </div>  
+      </div>
+    </header>
+
+    <main class="container-fluid">
+      <div class="row">
+        
+        <div class="col-3">
+          <h1>Click To Eat</h1>
+          {{#each burgers}}{{#unless eaten}}
+          <button type="button" data-eaten='{{eaten}}' class="btn btn-success btn-lg btn-block eatMyBurger"data-movieid="{{this.id}}">{{ burger_name }}</button>
+          {{/unless}}{{/each}}
+        </div>
+
+        <div class="col-3">
+          <h1>Eaten</h1>
+          {{#each burgers}}{{#if eaten}}
+          <button type="button" data-eaten='{{eaten}}' class="btn btn-success btn-lg btn-block eatMyBurger"data-movieid="{{this.id}}">{{ burger_name }}</button>
+          {{/if}}{{/each}}
+        </div>
+
+      </div>
+    </main>
+
+    <section class="container-fluid makeBurger">
+      <div class="row">
+        <div class="col-4">
+          <form id="addBurger">
+            <input id="input" class="form-control form-control-sm" type="text" placeholder="make a burger" name="burgerName">
+            <button type="button" class="btn btn-primary submit" id="submit">Create A Burger!</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    

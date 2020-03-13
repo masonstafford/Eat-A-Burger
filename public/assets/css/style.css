@@ -1,0 +1,87 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #efefef;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#header1 {
+	background: linear-gradient(-45deg, #6FA8BF, #5ABF86, #6FA8BF, #5ABF86);
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+    margin-left: 0px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+i {
+  font-size: 200px;  
+  color: #efefef;
+  margin-top: 30px;
+  /* border: solid 3px #efefef;
+  border-radius: 15px; */
+  transition: 0.100s ease-in;
+}
+
+i:hover {
+    transform: scale(1.05);
+}
+
+.col-4 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.col-3 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #5ABF86;
+    border: none;
+    transition: 0.200s ease-in;
+}
+
+.btn-primary:hover {
+    background-color: #6FA8BF;
+}
+
+.btn-success {
+    background-color: #5ABF86;
+    border: none;
+    transition: 0.200s ease-in;
+    padding: 30px;
+}
+
+.btn-success:hover {
+    background-color: rgb(206, 130, 120);
+}
+
+.submit {
+   padding: 20px;
+    margin: 25px;
+}
+
+.makeBurger {
+    margin: 50px;
+}
+
+h1 {
+    margin: 50px;
+}
