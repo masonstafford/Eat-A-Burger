@@ -4,7 +4,7 @@
   
  > ## Eat-A-Burger is a application that allows users to name, create, and eat burgers. This application was made using a node server and a mySQL database and a stylish yet simple Handlebars and bootstrap frontend. Have fun creating and eating burgers, but dont eat too much! 
 
-  ### https://morning-savannah-75298.herokuapp.com/
+  ### Deployed App: https://still-gorge-30090.herokuapp.com/
   
   ## Table of Contents
   
