@@ -1,87 +1,77 @@
-body {
-    padding: 0;
-    margin: 0;
-    height: 100vh;
-    width: 100vw;
-    background-color: #efefef;
-    font-family: 'Press Start 2P', cursive;
-}
-
-#header1 {
-	background: linear-gradient(-45deg, #6FA8BF, #5ABF86, #6FA8BF, #5ABF86);
-	background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    width: 100vw;
-    height: 20vh;
+* {
     text-align: center;
-    margin-left: 0px;
+    margin: 0 auto;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+#jumbotron {
+    background: linear-gradient(90deg, rgba(0,123,255,1) 0%, rgba(9,9,121,1) 0%, rgba(0,123,255,1) 100%);
+    color: #f2f2f2;
+    font-family: 'Bungee Shade', cursive;
+}
+
+h2 {
+    font-family: 'Bungee Shade', cursive;
+}
+
+#addburger {
+    margin-bottom: 50px;
+}
+
+#textName {
+    background-color: rgba(0,123,255,0);
+    padding-bottom: 8px;
+    padding-right: 80px;
+    border: 2px solid #212529;
+    border-radius: 10px;
+}
+
+
+.title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #007BFF;
+    border-radius: 10px;
+    color: #f2f2f2;
+    box-shadow: 0 2px 3px 0 #9b9b9b;
+    transition: ease 200ms;
+}
+
+.title:hover {
+    transform: scale(1.02);
+    box-shadow: 0 3px 4px 0 #9b9b9b;
+}
+
+ul{
+    padding-bottom: 10px;
+    padding-top:10px;
+    margin-top: 5px;
+    text-align: center;
+    /* list-style: none; */
+    background-color: #212529;
+    color: #f2f2f2;
+    border-radius: 10px;
 }
 
 i {
-  font-size: 200px;  
-  color: #efefef;
-  margin-top: 30px;
-  /* border: solid 3px #efefef;
-  border-radius: 15px; */
-  transition: 0.100s ease-in;
-}
-
-i:hover {
-    transform: scale(1.05);
-}
-
-.col-4 {
-    margin: 0 auto;
-    text-align: center;
-}
-
-.col-3 {
-    margin: 0 auto;
-    text-align: center;
-}
-
-.btn-primary {
-    background-color: #5ABF86;
-    border: none;
-    transition: 0.200s ease-in;
-}
-
-.btn-primary:hover {
-    background-color: #6FA8BF;
-}
-
-.btn-success {
-    background-color: #5ABF86;
-    border: none;
-    transition: 0.200s ease-in;
-    padding: 30px;
-}
-
-.btn-success:hover {
-    background-color: rgb(206, 130, 120);
-}
-
-.submit {
-   padding: 20px;
-    margin: 25px;
-}
-
-.makeBurger {
+    font-size: 200px;
     margin: 50px;
 }
 
-h1 {
-    margin: 50px;
+button{
+    border-radius: 10px;
+    color: #f2f2f2;
+    padding: 0 40px 0 40px;
+    transition: ease 200ms;
+    margin-left: 10px;
+}
+
+button:hover{
+  transform: scale(1.03);
 }

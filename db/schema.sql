@@ -1,4 +1,10 @@
--- Drops the burger_db if it exists currently --
-DROP DATABASE IF EXISTS burger_db;
--- Creates the "burger" database --
-CREATE DATABASE burger_db;
+CREATE DATABASE burgers_db;
+
+USE burgers_db;
+
+CREATE TABLE burgers (
+    id INT AUTO_INCREMENT, 
+    burger_name VARCHAR(255),
+    devoured TINYINT(1),
+    PRIMARY KEY (id)
+)
